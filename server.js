@@ -4,9 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Servidor FLEX online');
+  res.send('Servidor FLEX online');
 });
 
 app.listen(PORT, () => {
-    console.log(Servidor a correr na porta ${PORT}`);
+  console.log(Servidor a correr na porta ${PORT}`);
 });
